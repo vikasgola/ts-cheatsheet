@@ -122,10 +122,14 @@ a = -b;
 // string operators
 var msg:string = "hello" + " world!";       // concatenation
 
-// Conditional operator
+// Conditional operator: '?'
 // if num >0 then result = "positive" else result = "non-positive";
 var num:number=-2;
 var result= num > 0 ?"positive":"non-positive";
 
 // Type operators: unary operator
 typeof result;      // give string
+
+
+
+// ==================Conditional Statements===================

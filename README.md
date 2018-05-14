@@ -12,3 +12,4 @@ Learn typescript in 30 minutes with only one file.
 - logical operators
 - bitwise operators
 - Assigment operators
+- string, conditional and typeof operators

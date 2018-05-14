@@ -8,7 +8,7 @@ TypeScript is an open-source programming language developed and maintained by Mi
 
 TypeScript is designed for development of large applications and transpile to JavaScript.[4] As TypeScript is a superset of JavaScript, existing JavaScript programs are also valid TypeScript programs. TypeScript may be used to develop JavaScript applications for both client-side and server-side (Node.js) execution.
 
-*Source*: [https://en.wikipedia.org/wiki/TypeScript](Wikipedia)
+*Source*: [Wikipedia](https://en.wikipedia.org/wiki/TypeScript)
 
 ## Availabilty
 

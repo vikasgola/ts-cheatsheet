@@ -198,3 +198,45 @@ console.log(factorial)
 // }while(condition)
 
 // break statement will exit the loop at the point of break statement immediately
+
+
+// =======================functions==================
+
+function function_name(){
+// function body
+}
+
+//the function returns a string
+function greet():string{
+    return "hello world";
+}
+
+function test_param(n1:number,s1:string){
+    // funtion body
+}
+
+
+// Optional parameters: adding ? to end of variable name
+function disp_details(id:number,name:string,mail_id?:string){
+    console.log("ID:", id);
+    console.log("Name",name);
+    if(mail_id!=undefined)
+        console.log("Email Id",mail_id);
+}
+
+// Rest parameters
+function addNumbers(...nums:number[]){
+    // function body
+    // rest parameters has to be of same type
+}
+
+// Default parameters
+function calculate_discount(price:number,rate:number = 0.50){
+    // function body
+    // in case of only one parameter. rate will be 0.5
+}
+
+// Anonymous function
+var Anonymous = function(parameters){
+    return "hello world";
+}

@@ -133,3 +133,68 @@ typeof result;      // give string
 
 
 // ==================Conditional Statements===================
+var num:number = 12;
+
+// if statements
+if(num > 1){
+    num = 0;
+}
+
+// if and else
+if(num == 12){
+    num = -12;
+}else{
+    num = 12;
+}
+
+// switch
+switch(num){
+    case 0: 
+        console.log("zero");
+        break;
+    case 12:
+        console.log("tweleve");
+        break;
+    case -12:
+        console.log("minus twelve");
+        break;
+    default:
+        console.log("different");
+}
+
+
+// =====================Loops===========================
+
+// while loop
+var num:number=5;
+var factorial:number=1;
+while(num >=1){
+    factorial=factorial * num;
+    num--;
+}
+console.log("The factorialis "+factorial);
+
+// for loop
+// for (initial_count_value; termination-condition; step){
+//      statements
+// } e.g.======
+var num:number= 5;
+var i:number;
+var factorial=1;
+for(i=num;i>=1;i--){
+    factorial*=i;
+}
+console.log(factorial)
+
+// for-in loop
+// for (var val in list){
+//     //statements
+// }
+
+
+// do-while loop
+// do{
+//     //statements
+// }while(condition)
+
+// break statement will exit the loop at the point of break statement immediately

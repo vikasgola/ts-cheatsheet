@@ -13,3 +13,5 @@ Learn typescript in 30 minutes with only one file.
 - bitwise operators
 - Assigment operators
 - string, conditional and typeof operators
+- if, if - else and switch
+- while, do-while, for and for-in loop

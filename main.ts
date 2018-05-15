@@ -334,13 +334,13 @@ var valArray:string[]|number[];
 interface IPerson{
     firstName:string,
     lastName:string,
-    sayHi: ()=>string
+    saySomeThing: ()=>string
 }
 
 // use of interface
 var customer:IPerson = { 
-    firstName:"Tom",lastName:"Hanks",
-    sayHi: ():string =>{return "Hi there"}
+    firstName:"Hello",lastName:"World",
+    saySomeThing: ():string =>{return "Hi there"}
 }
 customer.firstName;
 
@@ -357,3 +357,15 @@ var agelist:ages;
 agelist["John"]=15;
 
 // interface and inheritance
+interface Person{
+    age:number
+    name:string
+}
+// Musician have access to all property of person interface
+interface Dancer extends Person{
+    danceStyle:string
+}
+var dancer:Dancer;
+dancer.name = "Prince";
+dancer.age=27;
+dancer.danceStyle = "contemporary";

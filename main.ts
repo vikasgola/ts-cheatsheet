@@ -250,3 +250,50 @@ var lambda=(x:number)=>10+x;
 
 
 // ===================Numbers======================
+
+var num:number = 123456789;
+
+// Properties
+Number.MAX_VALUE;
+Number.MIN_VALUE;
+Number.NaN;
+Number.NEGATIVE_INFINITY;
+Number.POSITIVE_INFINITY;
+Number.prototype;
+
+// Methods
+num.toExponential(1);
+num.toFixed(2);         // to 2 decimal points
+num.toLocaleString();   // to strings
+num.toPrecision(3);     // 3 digits
+num.toString(2);        // to base 2
+num.valueOf();
+
+
+// ===================Strings==========================
+
+var str:string = "Hello world!";
+
+// Properties
+str.length;
+str.constructor;
+
+// Methods
+str.charAt(1);          // e
+str.charCodeAt(2);      // 108
+str.concat(" added");   // Hello world! added
+str.indexOf("added");   // -1           we didn't saved the concat result
+str.lastIndexOf("d");   // 10
+str.localeCompare("hello world!");
+str.match("hello world!");      // null
+str.replace("added" , "");      // Hello world!
+str.search(" ");          // 5
+str.slice(1,4);         // ell
+str.split("",6);        // ["H","e","l","l","o"," "]
+str.substr(1,4);        // ello
+str.substring(1,4);     // ell
+str.toLowerCase();      // hello world!
+str.toUpperCase();      // HELLO WORLD!
+
+
+// =========================Arrays==============================

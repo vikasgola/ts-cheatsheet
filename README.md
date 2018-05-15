@@ -29,6 +29,9 @@ TypeScript is designed for development of large applications and transpile to Ja
 - Numbers
 - Strings
 - Arrays
+- Tuples
+- Unions
+- Interfaces
 
 ## License
 

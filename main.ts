@@ -319,3 +319,41 @@ numArray.reverse();     // [6,1,23,1]
 numArray.shift();       // 6
 numArray.sort();        // [1,1,6,23]
 numArray.some(function(a){ return a%3 == 0});    // true
+
+
+// ==================Tuples======================
+
+// Tuples are mostly the arrays in which is made of different types
+// e.g. you can make a array of integers and floats and strings
+
+// ==================Unions=======================
+var val:string|number;
+var valArray:string[]|number[];
+
+// ===================Interfaces================
+interface IPerson{
+    firstName:string,
+    lastName:string,
+    sayHi: ()=>string
+}
+
+// use of interface
+var customer:IPerson = { 
+    firstName:"Tom",lastName:"Hanks",
+    sayHi: ():string =>{return "Hi there"}
+}
+customer.firstName;
+
+// interface and arrays
+interface namelist{
+    [index:number]:string
+}
+var namesList:namelist=["John","Bran"];
+
+interface ages{
+    [index:string]:number
+}
+var agelist:ages;
+agelist["John"]=15;
+
+// interface and inheritance

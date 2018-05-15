@@ -1,6 +1,6 @@
 # Typescript-cheatsheet
 
-Learn typescript with only one file.
+Learn typescript within minutes.
 
 Don't forget to **star**:-).
 

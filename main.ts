@@ -240,3 +240,13 @@ function calculate_discount(price:number,rate:number = 0.50){
 var Anonymous = function(parameters){
     return "hello world";
 }
+
+// Function Constructor
+var myFunction = new Function("a", "b", "return a * b");
+
+// Lambda expression
+// ( [param1, parma2,...param n] )=>statement;
+var lambda=(x:number)=>10+x;
+
+
+// ===================Numbers======================

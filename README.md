@@ -25,6 +25,10 @@ TypeScript is designed for development of large applications and transpile to Ja
 - string, conditional and typeof operators
 - if, if - else and switch
 - while, do-while, for and for-in loop
+- functions, lambda functions, anonymous functions and more
+- Numbers
+- Strings
+- Arrays
 
 ## License
 

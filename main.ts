@@ -297,3 +297,25 @@ str.toUpperCase();      // HELLO WORLD!
 
 
 // =========================Arrays==============================
+
+// all array elements has to be of same type
+var numArray:number[];      // similarly string, bool arrays can be created
+var names:string[]=new Array("Mary","Tom","Jack","Jill");           // another way to define
+numArray = [1,23,1,6];
+var multi:number[][]=[[1,2,3],[23,24,25]]
+
+// Methods
+numArray.concat([1,3,6]);           //[1,23,1,6,1,3,6]  note that it will give a new array
+numArray.every(function(a){ return a>0});   // true
+numArray.filter(function(a){ return a%3 == 0});     // [6]
+numArray.forEach(function(a){ console.log(a)});     
+numArray.indexOf(1);            // 0
+numArray.lastIndexOf(1);        //  2
+numArray.map(function(a){ return a%3 == 0});    // [false, false, false, true]
+numArray.pop();             // [1,23,1]     note that it will give a new array
+numArray.push(6);           //  [1,23,1,6,6]
+numArray.reduce(function(a,b){ return a-b;});   // -9
+numArray.reverse();     // [6,1,23,1]
+numArray.shift();       // 6
+numArray.sort();        // [1,1,6,23]
+numArray.some(function(a){ return a%3 == 0});    // true
